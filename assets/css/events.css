@@ -1,0 +1,31 @@
+.event-graphic {
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 2px solid #083947;
+}
+
+.event-graphic img {
+    width: 100%;
+}
+
+.event-image {}
+
+.event-info {
+
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 1024px) {
+    .event-graphic {
+        max-width: 700px;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1440px) {
+    .event-graphic {
+        max-width: 980px;
+    }
+}

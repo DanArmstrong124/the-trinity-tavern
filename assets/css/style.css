@@ -1,0 +1,149 @@
+p {
+    margin-bottom: 0px;
+}
+
+.icon-colour {
+    color: #b49a69;
+}
+
+.background-fade {
+    background-color: rgba(0, 0, 0, 0.80);
+    border: 1px solid black;
+}
+
+.cardo {
+    font-family: 'Cardo', serif;
+}
+
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.tac {
+    text-align: center;
+}
+
+/* Nav */
+
+.nav-bar {
+    height: 180px;
+    background-color: white;
+    color: black;
+    border-bottom: 3px solid goldenrod;
+}
+
+.title {
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+.bg-none {
+    background-color: transparent !important;
+    border-color: none !important;
+}
+
+.logo-spacing {
+    padding-right: 10px;
+}
+
+.nav-drop {
+    background-color: #242427;
+}
+
+.menu-buttons {
+    color: #b49a69;
+    font-size: 20px;
+}
+
+.menu-buttons-brand {
+    color:  #b49a69;
+    font-size: 30px;
+    border: 1px solid #242427;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-btn {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 45px;
+}
+
+.hide-me {
+    display: none;
+}
+
+.show-me {
+    display: block;
+}
+
+.welcome {
+    font-size: 38px;
+}
+
+.welcomesub {
+    font-size: 19px;
+}
+
+.welcomesubtwo {
+    font-size: 16px;
+}
+
+.welcome-text-parr {
+    padding-top: 170px;
+    color: white;
+}
+
+.miniaboutbtn {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.miniaboutbtn:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn-box-shadow:focus {
+    box-shadow: 0 0 0 0.2rem goldenrod !important;
+}
+
+/* SMALL PHONE */
+@media only screen and (max-width: 320px) {
+        .welcome {
+        font-size: 18px;
+    }
+
+        .welcomesub {
+        font-size: 11px;
+    }
+
+        .welcomesubtwo {
+        font-size: 11px;
+    }
+        .welcome-text-parr {
+        padding-top: 100px;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+        .welcome {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+        .welcome {
+        font-size: 26px;
+    }
+}

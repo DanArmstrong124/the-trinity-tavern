@@ -1,0 +1,10 @@
+.history-btn button {
+    background-color: rgb(150, 150, 150);
+    color: black;
+    transition-duration: 1s;
+}
+.history-btn button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}

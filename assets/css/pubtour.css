@@ -1,0 +1,41 @@
+/* SMALL PHONE */
+@media only screen and (min-width: 320px) {
+    #pubtourframe {
+        height: 500px;
+    }
+}
+
+/* MEDIUM PHONE */
+@media only screen and (min-width: 375px) {
+    #pubtourframe {
+        height: 500px;
+    }
+}
+
+/* LARGE PHONE */
+@media only screen and (min-width: 425px) {
+    #pubtourframe {
+        height: 500px;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+    #pubtourframe {
+        height: 500px;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 1024px) {
+    #pubtourframe {
+        height: 600px;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1440px) {
+    #pubtourframe {
+        height: 900px;
+    }
+}

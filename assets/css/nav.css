@@ -1,0 +1,106 @@
+.menu-bar {
+    position: absolute; 
+    top: 100px;
+    left: 30px;
+}
+
+nav #thecastlelogo {
+    width: 225px;
+    height: 151.5px;
+}
+    .menu-btn {
+        font-size: 16px;
+    }
+}
+
+
+/*SMALL PHONE*/
+@media only screen and (max-width: 320px) {
+  .menu-bar {
+    position: absolute; 
+    top: 43px;
+    left: 0px;
+    font-size: 20px;
+  }
+  .menu-bar button span {
+      display: none;
+  }
+  .nav-bar {
+      height: 120px;
+  }
+  nav #thecastlelogo {
+      width: 150px;
+      height: 101px;
+  }
+    .menu-btn {
+        font-size: 16px;
+    }
+}
+
+/*MEDIUM MOBILE*/
+@media only screen and (max-width: 375px) {
+  .menu-bar {
+    position: absolute; 
+    top: 43px;
+    left: 0px;
+    font-size: 20px;
+  }
+  .menu-bar button span {
+      display: none;
+  }
+  .nav-bar {
+      height: 120px;
+  }
+  nav #thecastlelogo {
+      width: 150px;
+      height: 101px;
+  }
+    .menu-btn {
+        font-size: 16px;
+    }
+}
+
+/*LARGE MOBILE*/
+@media only screen and (max-width: 426px) {
+  .menu-bar {
+    position: absolute; 
+    top: 43px;
+    left: 0px;
+    font-size: 20px;
+  }
+  .menu-bar button span {
+      display: none;
+  }
+  .nav-bar {
+      height: 120px;
+  }
+  nav #thecastlelogo {
+      width: 150px;
+      height: 101px;
+  }
+    .menu-btn {
+        font-size: 16px;
+    }
+}
+
+/*TABLET MOBILE*/
+@media only screen and (min-width: 768px) {
+    .menu-bar {
+        position: absolute; 
+        top: 75px;
+        left: 30px;
+    }
+    nav #thecastlelogo {
+        width: 225px;
+        height: 151.5px;
+    }
+    .menu-bar button span {
+      display: inline-block;
+    }
+    .nav-bar {
+      height: 180px;
+    }
+        .menu-btn {
+        font-size: 24px;
+    }
+}

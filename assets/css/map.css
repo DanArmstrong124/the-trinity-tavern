@@ -1,0 +1,77 @@
+.address {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #b49a69;
+}
+
+/* SMALL PHONE */
+@media only screen and (min-width: 320px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+    
+    .address {
+        font-size: 14px;
+    }
+}
+
+/* MEDIUM PHONE */
+@media only screen and (min-width: 375px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+
+    .address {
+        font-size: 14px;
+    }
+}
+
+/* LARGE PHONE */
+@media only screen and (min-width: 425px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+
+    .address {
+        font-size: 14px;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+    #gmap {
+        height: 300px;
+        width: 300px;
+    }
+
+    .address {
+        font-size: 14px;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 1024px) {
+    #gmap {
+        height: 400px;
+        width: 400px;
+    }
+
+    .address {
+        font-size: 19px;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1440px) {
+    #gmap {
+        height: 500px;
+        width: 500px;
+    }
+
+    .address {
+        font-size: 23px;
+    }
+}

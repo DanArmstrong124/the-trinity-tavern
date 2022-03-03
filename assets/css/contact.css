@@ -1,0 +1,31 @@
+.email-block {
+    margin-top: 0px;
+}
+
+/*SMALL PHONE*/
+@media only screen and (max-width: 320px) {
+    .email-block {
+        margin-top: 15px;
+    }
+}
+
+/*MEDIUM MOBILE*/
+@media only screen and (max-width: 375px) {
+    .email-block {
+        margin-top: 15px;
+    }
+}
+
+/*LARGE MOBILE*/
+@media only screen and (max-width: 426px) {
+    .email-block {
+        margin-top: 15px;
+    }
+}
+
+/*TABLET MOBILE*/
+@media only screen and (min-width: 768px) {
+    .email-block {
+        margin-top: 15px;
+    }
+}
