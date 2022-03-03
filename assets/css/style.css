@@ -1,3 +1,49 @@
+@font-face {
+    font-family: 'blackpearl';
+    src: url('blackpearl-vpxa-webfont.woff2') format('woff2'),
+         url('blackpearl-vpxa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'skullandbone';
+    src: url('skullsandcrossbones-rppkm-webfont.woff2') format('woff2'),
+         url('skullsandcrossbones-rppkm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'treasuremap';
+    src: url('treasuremap-ea1vj-webfont.woff2') format('woff2'),
+         url('treasuremap-ea1vj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bp {
+    font-family: "blackpearl";
+}
+
+.sb {
+    font-family: "skullandbone";
+}
+
+.tm {
+    font-family: "treasuremap";
+}
+
+
 p {
     margin-bottom: 0px;
 }
