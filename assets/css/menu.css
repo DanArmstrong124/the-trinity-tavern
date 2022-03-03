@@ -28,4 +28,10 @@
     border: 1px solid black;
     border-radius: 3px;
     padding: 10px;
+    transition: all .5s;
+}
+
+.menu-download-box:hover {
+    background-color: #686868;
+    transition: all .5s;
 }
