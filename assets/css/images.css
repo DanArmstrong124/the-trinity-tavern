@@ -50,7 +50,7 @@
 }
 
 .galleryimg {
-    background: url('../img/index/2.jpg');
+    background: url('../img/index/t1.jfif');
     background-position: center;
     background-size: cover;
     margin: 10px;
@@ -58,7 +58,7 @@
 }
 
 .galleryimg2 {
-    background: url('../img/index/3.jpg');
+    background: url('../img/index/t2.jfif');
     background-position: center;
     background-size: cover;
     margin: 10px;
@@ -66,7 +66,7 @@
 }
 
 .galleryimg3 {
-    background: url('../img/index/4.jpg');
+    background: url('../img/index/t3.jfif');
     background-position: center;
     background-size: cover;
     margin: 10px;
@@ -74,7 +74,7 @@
 }
 
 .galleryimg4 {
-    background: url('../img/index/5.jpg');
+    background: url('../img/index/t4.jfif');
     background-position: center;
     background-size: cover;
     margin: 10px;
