@@ -193,3 +193,26 @@ p {
         font-size: 26px;
     }
 }
+
+.right-kraken {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 180px;
+    width: 50%;
+    background: url(assets/img/krakententicle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1);
+}
+
+.left-kraken {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 180px;
+    width: 50%;
+    background: url(assets/img/krakententicle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
