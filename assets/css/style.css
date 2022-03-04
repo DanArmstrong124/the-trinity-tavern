@@ -200,7 +200,7 @@ p {
     left: 50%;
     height: 180px;
     width: 50%;
-    background: url(assets/img/krakententicle.png);
+    background: url(../img/krakententicle.png);
     background-repeat: no-repeat;
     background-size: contain;
     transform: scaleX(-1);
@@ -212,7 +212,7 @@ p {
     left: 0;
     height: 180px;
     width: 50%;
-    background: url(assets/img/krakententicle.png);
+    background: url(../img/krakententicle.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
