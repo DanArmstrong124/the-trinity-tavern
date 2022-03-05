@@ -15,6 +15,12 @@ body {
     color: white;
 }
 
+.menu-btn {
+    background: #2c2e3ebf !important;
+    height: 86px;
+    border-radius: 6em;
+}
+
 @font-face {
     font-family: 'blackpearl';
     src: url('blackpearl-vpxa-webfont.woff2') format('woff2'),
