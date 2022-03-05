@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+.menu-text {
+    color: white;
+}
+
 @font-face {
     font-family: 'blackpearl';
     src: url('blackpearl-vpxa-webfont.woff2') format('woff2'),
