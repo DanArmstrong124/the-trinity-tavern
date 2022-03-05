@@ -1,3 +1,7 @@
+body {
+    background-color: #2c2e3e;
+}
+
 @font-face {
     font-family: 'blackpearl';
     src: url('blackpearl-vpxa-webfont.woff2') format('woff2'),
@@ -77,7 +81,7 @@ p {
 
 .nav-bar {
     height: 180px;
-    background-color: white;
+    background-color: #2c2e3e;
     color: black;
     border-bottom: 3px solid goldenrod;
 }
