@@ -19,6 +19,12 @@ body {
     background: #2c2e3ebf !important;
     height: 86px;
     border-radius: 6em;
+    transition: all .5s;
+}
+
+.menu-btn:hover {
+    background: #2c2e3e !important;
+    transition: all .5s;
 }
 
 @font-face {
