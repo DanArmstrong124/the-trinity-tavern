@@ -1,5 +1,14 @@
 body {
     background-color: #2c2e3e;
+    color: white;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.menu-bar {
+    color: white;
 }
 
 @font-face {
