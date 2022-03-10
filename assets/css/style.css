@@ -6,6 +6,7 @@ body {
 
     .cursor {
         position: fixed;
+        background: url("../img/krakententicle.png");
         width: 0;
         height: 0;
         border: 10px solid #fff;
