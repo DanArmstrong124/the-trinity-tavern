@@ -5,21 +5,30 @@ body {
 }
 
     .cursor {
-        position: fixed;
-        background: url("../img/krakententicle.png");
-        width: 0;
-        height: 0;
-        border: 10px solid #fff;
-        border-radius: 50%;
-        transform: translate(-50%, -50%);
-        pointer-events: none;
-        transition: width 0.2s, height 0.2s;
-     }
+       
+    position: fixed;
+    background-image: black;
+    background: url(../img/krakententicleone.png);
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    /* border: 10px solid #fff; */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width 0.2s, height 0.2s;
+    background-size: contain;
+    z-index: 1000;
+    /* border: none; */
+    transform: #);
+    /* background: no-repeat; */
+    background-repeat: no-repeat;
+    /* background-color: #5c4028;*/
+    }
      
      .cursor.link {
         width: 60px;
         height: 60px;
-        border: 2px solid #f50000;
      }
 
 
