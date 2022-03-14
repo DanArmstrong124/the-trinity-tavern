@@ -1,9 +1,12 @@
-const cursor = document.querySelector(".cursor")
+const cursor = document.querySelector(".cursor");
+const tentcursor = document.querySelector(".tentcursor");
 
 // move cursor as mouse move
 document.addEventListener("mousemove", (e) => {
    cursor.style.left = e.pageX + 'px'
+   tentcursor.style.left = e.pageX + 'px'
    cursor.style.top = e.pageY + 'px'
+   tentcursor.style.top = e.pageY + 'px'
 })
 
 // add different classes on events
