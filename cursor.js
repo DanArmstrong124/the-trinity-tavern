@@ -3,8 +3,8 @@ const tentcursor = document.querySelector(".tentcursor");
 
 // move cursor as mouse move
 document.addEventListener("mousemove", (e) => {
-   cursor.style.left = e.pageX + scrollX + 'px'
-   cursor.style.top = e.pageY + scrollY + 'px'
+   cursor.style.left = e.pageX - scrollX + 'px'
+   cursor.style.top = e.pageY - scrollY + 'px'
 })
 
 // add different classes on events
