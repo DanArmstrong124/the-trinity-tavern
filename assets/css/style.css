@@ -2,11 +2,15 @@
 
 
 .preanim {
-
+    width: 200px;
+    position: absolute;
+    top: 0;
+    transform: rotate(90deg);
 }
 
 .preanimlogo {
-
+    position: absolute;
+    transform: translate(-50%, 0%);
 }
 
 
