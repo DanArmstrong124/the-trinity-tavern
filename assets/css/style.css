@@ -8,7 +8,7 @@
 .preanim {
     width: 200px;
     position: relative;
-    top: -150px;
+    top: -190px;
     transform: rotate(90deg);
     transition: all 3s;
 }
