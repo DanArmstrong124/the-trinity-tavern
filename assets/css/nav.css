@@ -4,6 +4,11 @@
     left: 30px;
 }
 
+#trinitylogo {
+    background: url('assets/img/logo.png') !important;
+    border-radius: 0 !important;
+}
+
 nav #trinitylogo {
     width: 151.5px;
     height: 151.5px;
