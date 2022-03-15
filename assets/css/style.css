@@ -2,12 +2,13 @@
 
 .preanimdiv {
     transform: translate(-50%, 0%);
+    position: absolute;
 }
 
 .preanim {
     width: 200px;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: -185px;
     transform: rotate(90deg);
 }
 
