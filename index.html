@@ -35,8 +35,8 @@
 
     <header>
         <nav class="nav-bar justify-content-center">
-            <div class="left-kraken"></div>
-            <div class="right-kraken"></div>
+            <div id="lk" class="left-kraken2"></div>
+            <div id="rk" class="right-kraken2"></div>
             <div class="row">
                 <div class="title mx-auto tac">
                                         <a class="preanimlogo" id="preanimlogo" href="index.html"><div id="trinitylogo" style="background: url('assets/img/logo.png'); background-size: contain; background-repeat: no-repeat;"></div></a>
@@ -46,6 +46,9 @@
             <script>
                 var animlogo = document.getElementById('preanimlogo');
                 var anim = document.getElementById('anim');
+                var lk = document.getElementById('lk');
+                var rk = document.getElementById('rk');
+
                 setTimeout(function(){
                     animlogo.classList.remove('preanimlogo');
                     animlogo.classList.add('preanimlogo2');
@@ -54,6 +57,10 @@
                     setTimeout(function(){
                         anim.classList.remove('preanim2');
                         anim.classList.add('preanim');
+                        lk.classList.remove('left-kraken2');
+                        rk.classList.remove('right-kraken2');
+                        lk.classList.add('left-kraken');
+                        rk.classList.add('right-kraken');
                     },5000);
                 }, 2000);
 
