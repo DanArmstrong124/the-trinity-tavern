@@ -303,6 +303,20 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     transform: scaleX(-1);
+    transition: all 3s;
+}
+
+.right-kraken2 {
+    position: absolute;
+    top: 0;
+    left: 110%;
+    height: 180px;
+    width: 50%;
+    background: url(../img/krakententicle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1);
+    transition: all 3s;
 }
 
 .left-kraken {
@@ -314,6 +328,19 @@ p {
     background: url(../img/krakententicle.png);
     background-repeat: no-repeat;
     background-size: contain;
+    transition: all 3s;
+}
+
+.left-kraken2 {
+    position: absolute;
+    top: 0;
+    left: -60%;
+    height: 180px;
+    width: 50%;
+    background: url(../img/krakententicle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 3s;
 }
 
 .title {
