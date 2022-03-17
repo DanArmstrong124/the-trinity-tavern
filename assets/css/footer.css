@@ -3,3 +3,21 @@ footer {
     color: black;
     border-top: 3px solid goldenrod;
 }
+
+.admiral {
+    background: url("assets/img/admiral.png");
+    width: 87px;
+    display: inline-block;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tabfoot {
+    background: url("assets/img/tabimg-invert 3.png");
+    width: 87px;
+    display: inline-block;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
