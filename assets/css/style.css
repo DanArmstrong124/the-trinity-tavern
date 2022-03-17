@@ -10,7 +10,7 @@
     position: relative;
     top: -190px;
     transform: rotate(90deg);
-    transition: all 3s;
+    transition: all 2s;
 }
 
 .preanim2 {
@@ -18,21 +18,21 @@
     position: relative;
     top: -10px;
     transform: rotate(90deg);
-    transition: all 3s;
+    transition: all 2s;
 }
 
 .preanimlogo {
     position: absolute;
     transform: translate(-50%, 0%);
     top: -150px;
-    transition: all 3s;
+    transition: all 2s;
 }
 
 .preanimlogo2 {
 position: absolute;
 transform: translate(-50%, 0%);
 top: 15px;
-transition: all 3s;
+transition: all 2s;
 }
 
 
