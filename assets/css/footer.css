@@ -5,7 +5,6 @@ footer {
 }
 
 .admiral {
-    background: url("assets/img/admiral.png");
     width: 87px;
     display: inline-block;
     height: 38px;
@@ -14,7 +13,6 @@ footer {
 }
 
 .tabfoot {
-    background: url("assets/img/tabimg-invert 3.png");
     width: 87px;
     display: inline-block;
     height: 38px;
